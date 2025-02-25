@@ -9,8 +9,8 @@ function readBooks() {
     return JSON.parse(data);
 }
 
-function saveBooks(libros) {
-    fs.writeFileSync("libros.json", JSON.stringify(libros, null, 2));
+function saveBooks(books) {
+    fs.writeFileSync("libros.json", JSON.stringify(books, null, 2));
 }
 
 app.get("/libros", (req, res) => {
