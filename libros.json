@@ -26,6 +26,12 @@
     "autor": "Miguel de Cervantes",
     "anio": 1605,
     "disponible": false
-
+  },
+  {
+    "id": 5,
+    "titulo": "Harry Potter y la piedra filosofal",
+    "autor": "J.K. Rowling",
+    "anio": 1997,
+    "disponible": true
   }
 ]
