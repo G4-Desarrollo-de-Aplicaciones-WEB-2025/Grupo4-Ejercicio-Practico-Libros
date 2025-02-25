@@ -1,22 +1,3 @@
-const express = require("express");
-const fs = require("fs");
-const app = express();
-const PORT = 63000;
-
-app.use(express.json());
-function readBooks() {
-  const data = fs.readFileSync("libros.json", "utf-8");
-  return JSON.parse(data);
-}
-
-function saveBooks(libros) {
-  fs.writeFileSync("libros.json", JSON.stringify(libros, null, 2));
-}
-
-app.get("/libros", (req, res) => {
-  const libros = readBook();
-  res.json(libros);
-});
 
 app.put("/libros/:id", (req, res) => {
   const id = parseInt(req.params.id);
@@ -36,6 +17,3 @@ app.put("/libros/:id", (req, res) => {
   }
 });
 
-app.listen(PORT, () => {
-  console.log(`Server activo en http://localhost:${PORT}`);
-});
