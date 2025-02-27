@@ -1,23 +1,30 @@
 [
-    {
-        "id": 1,
-        "titulo": "La historia interminable",
-        "autor": "Michael Ende",
-        "anio": 1979,
-        "disponible": true
-    },
-    {
-        "id": 2,
-        "titulo": "El mundo de Sofía",
-        "autor": "Jostein Gaarder",
-        "anio": 1991,
-        "disponible": false
-    },
-    {
-        "id": 3,
-        "titulo": "El retrato de Dorian Gray",
-        "autor": "Oscar Wilde",
-        "anio": 1890,
-        "disponible": true
-    }
+  {
+    "id": 1,
+    "titulo": "La historia interminable",
+    "autor": "Michael Ende",
+    "anio": 1979,
+    "disponible": true
+  },
+  {
+    "id": 2,
+    "titulo": "El mundo de Sofía",
+    "autor": "Jostein Gaarder",
+    "anio": 1991,
+    "disponible": false
+  },
+  {
+    "id": 3,
+    "titulo": "El retrato de Dorian Gray",
+    "autor": "Oscar Wilde",
+    "anio": 1890,
+    "disponible": true
+  },
+  {
+    "id": 4,
+    "titulo": "Luz de agosto",
+    "autor": "William Faulkner",
+    "anio": 1935,
+    "disponible": true
+  }
 ]
