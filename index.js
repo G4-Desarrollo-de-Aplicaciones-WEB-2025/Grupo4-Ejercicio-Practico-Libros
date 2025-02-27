@@ -17,7 +17,14 @@ function saveBooks(books) {
 }
 
 // endpoint GET para obtener libros
-
+app.get("/libros", (req, res) => {
+    try {
+        const books = readBooks();
+        res.json(books);
+    } catch (error) {
+        res.status(500).json({ error: "Error al leer los libros." });
+    }
+});
 
 
 // endpoint POST para agregar un libro nuevo
